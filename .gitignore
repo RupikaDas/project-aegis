@@ -214,5 +214,18 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Streamlit
+# Environment Variables
+.env
+
+# Model Files
+models/*.pkl
+models/*.joblib
+
+# Large Datasets
+data/raw/
+data/processed/
+
+# Logs
+logs/
+*.log# Streamlit
 .streamlit/secrets.toml
