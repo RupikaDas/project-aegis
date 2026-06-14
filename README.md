@@ -1,3 +1,4 @@
 # Project-Aegis
-An AI-assisted content moderation and abuse investigation framework.
+AI-Assisted Data Integrity & Investigation Platform
+<br>
 Author - Rupika Das
