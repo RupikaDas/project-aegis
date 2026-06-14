@@ -1,4 +1,4 @@
 # Project-Aegis
-AI-Assisted Data Integrity & Investigation Platform
+AAI-Assisted Trust & Safety Investigation Framework with Prompt Engineering and LLM Evaluation.
 <br>
 Author - Rupika Das

@@ -229,3 +229,16 @@ data/processed/
 logs/
 *.log# Streamlit
 .streamlit/secrets.toml
+
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
