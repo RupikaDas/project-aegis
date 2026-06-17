@@ -6,7 +6,6 @@ def toxicity_classification_prompt(
     """
 
     return f"""
-You are a YouTube Trust & Safety analyst.
 
 Analyze the following comment.
 

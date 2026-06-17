@@ -2,9 +2,7 @@ def calculate_accuracy(
     actual: list,
     predicted: list
 ) -> float:
-    """
-    Calculate classification accuracy.
-    """
+    #Calculate classification accuracy.
 
     if len(actual) != len(predicted):
         raise ValueError(

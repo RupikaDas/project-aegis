@@ -9,8 +9,6 @@ Comment:
 
 def prompt_v2(comment: str) -> str:
     return f"""
-You are a YouTube Trust & Safety analyst.
-
 Classify the comment into:
 - Toxic
 - Threat

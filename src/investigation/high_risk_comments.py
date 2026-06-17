@@ -5,10 +5,7 @@ def get_high_risk_comments(
     df: pd.DataFrame,
     limit: int = 10
 ) -> pd.DataFrame:
-    """
-    Return comments with the highest
-    number of abuse categories.
-    """
+    #Return comments with the highest number of abuse categories.
 
     categories = [
         "toxic",

@@ -1,16 +1,13 @@
-"""
-Content profiling module for Project Aegis.
+#Content profiling module for Project Aegis.
 
-Provides summary statistics for Trust & Safety datasets.
-"""
+#Provides summary statistics for Trust & Safety datasets.
 
 import pandas as pd
 
 
 def generate_content_profile(df: pd.DataFrame) -> dict:
-    """
-    Generate summary statistics for abuse categories.
-    """
+    
+    #Generate summary statistics for abuse categories.
 
     total_comments = len(df)
 
