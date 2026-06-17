@@ -1,15 +1,22 @@
 def calculate_accuracy(
-    correct_predictions: int,
-    total_predictions: int
+    actual: list,
+    predicted: list
 ) -> float:
     """
     Calculate classification accuracy.
     """
 
-    if total_predictions == 0:
-        return 0.0
+    if len(actual) != len(predicted):
+        raise ValueError(
+            "Lists must have same length."
+        )
+
+    correct = sum(
+        a == p
+        for a, p in zip(actual, predicted)
+    )
 
     return round(
-        correct_predictions / total_predictions * 100,
+        correct / len(actual) * 100,
         2
     )

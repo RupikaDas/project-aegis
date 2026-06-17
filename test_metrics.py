@@ -2,9 +2,25 @@ from src.evaluation.metrics import (
     calculate_accuracy
 )
 
+actual = [
+    "toxic",
+    "safe",
+    "toxic",
+    "safe",
+    "toxic"
+]
+
+predicted = [
+    "toxic",
+    "safe",
+    "safe",
+    "safe",
+    "toxic"
+]
+
 accuracy = calculate_accuracy(
-    correct_predictions=92,
-    total_predictions=100
+    actual,
+    predicted
 )
 
 print(
